@@ -1,9 +1,15 @@
+package gui;
 import java.awt.Color;
 import java.awt.Graphics;
 import java.util.LinkedList;
 import java.util.List;
-
 import javax.swing.JPanel;
+import handler.MouseHandler;
+import point.Point;
+import point.Pointable;
+import shape.Circle;
+import shape.Shape;
+import shape.ShapeDecorator;
 
 public class ShapeContainer extends JPanel implements Pointable
   {

@@ -1,3 +1,4 @@
+package point;
 
 public interface Pointable
   {
